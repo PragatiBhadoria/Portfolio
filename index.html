@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal portfolio website </title>
+           <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fronts/remixicon.css"
+            rel="stylesheet"/>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pb logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p style="font-family: italic ">HELLO!!</p>
+                <h1> I,m <span>Pragati </span><br>A Web Developer</h1>
+            </div>
+        </div>
+    </div>    
+        <!-- ----------------------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pg3.jpeg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Welcome to my digital playground! <br>
+                        I'm Pragati Bhadoria, <br>
+                        A passionate web developer
+                        on a mission to blend creativity with code.
+                        Whether it's crafting seamless user experiences or diving into the latest tech trends,
+                        my journey is fueled by curiosity and a relentless drive for innovation.
+                        Explore my portfolio to see the projects I've brought to life, the skills I've honed, and the dreams I'm chasing. 
+                        Let's build something amazing together!
+                      
+                        </h1>
+                    
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skils">
+                    <ul>
+                        <li><span>Web Development</span><br></li>
+                        <li><span>Cryptologist</span><br></li>
+
+                    </ul>
+                </div>
+                <!-- <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-2024</span><br>Hadoop, Sparks</li>
+                        <li><span>2022-2023</span><br>Hadoop, Sparks</li>
+                        <li><span>Data Analyst</span><br>Hadoop, Sparks</li> 
+                         <li><span>Business Analysts</span><br>Hadoop, Sparks</li>
+                         <li><span>R&D</span><br>Hadoop, Sparks</li> 
+                    </ul> 
+                </div>-->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <!-- <li><span>2019</span><br>Hadoop, Sparks</li>
+                        <li><span>2022</span><br>Hadoop, Sparks</li>
+                        <li><span>2023</span><br>Hadoop, Sparks</li> -->
+                        <!-- <li><span>Business Analysts</span><br>Hadoop, Sparks</li> -->
+                        <!-- <li><span>R&D</span><br>Hadoop, Sparks</li> -->
+                    Persuing B.Tech from Amity University Madhya Pradesh
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------services-------------------- -->
+    <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design refers to the process of creating and building websites, involving various aspects such as layout, user interface, graphics, colors, typography, and content, with the goal of creating an aesthetically pleasing and functional online presence that engages users and achieves website goals.
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UX (User Experience) and UI (User Interface) design focus on creating engaging and seamless interactions between users and digital products. UX design crafts the overall experience, while UI design develops the visual and interactive elements, such as buttons, menus, and layouts, to ensure a intuitive and user-friendly interface.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Cryptologist</h2>
+                <p>A cryptologist is a professional who specializes in the study and application of cryptography, which involves the design, development, and analysis of algorithms and protocols for secure data transmission and encryption. Cryptologists aim to ensure the confidentiality, integrity, and authenticity of information, protecting it from unauthorized access.</p>
+                <a href="#">Learn More</a>
+            </div>
+    
+          </div>  
+        </div>
+    </div>
+    <!-- -------------------portfolio----------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="lovepik-blue-minimalistic-tech-lines-background-image_605816811.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from Play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="n.jpg">
+                    <div class="layer">
+                        <h3>Pack ingreadients</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from Play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>  
+     </div>
+     <!-- --------------------------contact-------------------- -->
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>pragatibhadoria25@gmail.com</p>
+                    
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/pragati-bhadoria-832902255"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        
+                        <!-- <a href=""><i class="fa-brands fa-linkedin"></i></a> -->
+                    </div>
+                    <a href="#" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="text" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                    <!-- <input type="text" name="" placeholder="Your name" required> -->
+                    <!-- <input type="text" name="Name" placeholder="Your name" required> -->
+                    <!-- <input type="text" name="Name" placeholder="Your name" required> -->
+                    <!-- <form action=""></form> -->
+                </form>
+                <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Pragati Bhadoria . Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+      </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+    
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    
+    
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyU-tWqhK6B2T58bblKsOGoKjLZr7jz74Cp3OWTcKhucxL34U21vQ-GICeYYKzroxzbIQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Thank you for your message. I will contact you soon."
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+        
+    </body>
+    </html>
